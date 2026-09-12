@@ -44,12 +44,16 @@ The final log-linear model explains ~54% of variance in log-price (R² ≈ 0.54)
 
 ```
 housing-price-regression/
-│
 ├── README.md
 ├── data/
+│   └── Housing_Price_Data.csv
 ├── scripts/
-└── outputs/
+│   └── housing_price_regression.R
+└── report/
+    └── regression.docx
 ```
+
+The R script was extracted directly from the final report's "Appendix A: R Inputs & Outputs" section. Only the dataset file path was updated to match this repository's structure; the analysis logic is unchanged.
 
 ## Skills Demonstrated
 
